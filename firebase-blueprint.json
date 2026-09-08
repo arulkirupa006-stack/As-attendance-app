@@ -1,0 +1,73 @@
+{
+  "collections": {
+    "accounts": {
+      "fields": {
+        "id": "string",
+        "username": "string",
+        "password": "string",
+        "name": "string",
+        "email": "string",
+        "role": "string",
+        "department": "string",
+        "avatar": "string",
+        "createdAt": "string"
+      },
+      "indexes": []
+    },
+    "students": {
+      "fields": {
+        "id": "string",
+        "studentId": "string",
+        "name": "string",
+        "email": "string",
+        "phone": "string",
+        "avatar": "string",
+        "grade": "string",
+        "rollNumber": "string",
+        "notes": "string"
+      },
+      "indexes": []
+    },
+    "classes": {
+      "fields": {
+        "id": "string",
+        "name": "string",
+        "code": "string",
+        "instructor": "string",
+        "room": "string",
+        "startTime": "string",
+        "endTime": "string",
+        "gracePeriodMins": "number",
+        "daysOfWeek": "array",
+        "studentIds": "array"
+      },
+      "indexes": []
+    },
+    "records": {
+      "fields": {
+        "id": "string",
+        "studentId": "string",
+        "classId": "string",
+        "date": "string",
+        "checkInTime": "string",
+        "checkOutTime": "string",
+        "status": "string",
+        "minutesLate": "number",
+        "notes": "string",
+        "periodId": "string",
+        "updatedAt": "string"
+      },
+      "indexes": []
+    },
+    "config": {
+      "fields": {
+        "name": "string",
+        "nameLine1": "string",
+        "nameLine2": "string",
+        "logo": "string",
+        "tagline": "string"
+      },
+      "indexes": []
+    }
+  }
+}

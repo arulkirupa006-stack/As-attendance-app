@@ -1,0 +1,6 @@
+{
+  "name": "Student Attendance App",
+  "description": "Student Attendance Tracker interface with Take Attendance, Student Adding, Classes & Sections, and Teacher Adding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
